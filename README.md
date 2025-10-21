@@ -2,8 +2,6 @@
 ## nettoluis/tst-p2: Script
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Release Version](https://img.shields.io/github/v/release/nettoluis/tst-p2?include_prereleases&label=version)](https://github.com/nettoluis/tst-p2/releases)
-[![Tecnologia Principal](https://img.shields.io/badge/Tecnologia-[...Tecnologia...]-blue)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
 ## 💡 Sobre o Projeto
 Este é um pequeno e prático script projetado para **otimizar e simplificar drasticamente o processo de envio de questões para a plataforma Dirlididi**.
 
