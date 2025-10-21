@@ -1,0 +1,17 @@
+tst-p2() {
+    if [ -z "$DIRLIDIDI_TOKEN" ]; then
+        echo "Erro: A variável de ambiente DIRLIDIDI_TOKEN não está definida."
+        echo "Por favor, adicione 'export DIRLIDIDI_TOKEN=\"seu_token\"' ao seu ~/.bashrc (ou ~/.zshrc)"
+        return 1
+    fi
+
+    if [ "$#" -ne 2 ]; then
+        echo "Erro: Uso incorreto."
+        echo "Uso: tst-p2 [idQuestao] [arquivoResolucao]"
+        return 1
+    fi
+
+    # $1 é o primeiro argumento (idQuestao)
+    # $2 é o segundo argumento (arquivoResolucao)
+    python3 dirlididi.py submit "$1" "$DIRLIDIDI_TOKEN" "$2"
+}
